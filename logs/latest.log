@@ -1,0 +1,61 @@
+[09:32:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:32:26] [ServerMain/INFO]: Loaded 1175 recipes
+[09:32:26] [ServerMain/INFO]: Loaded 1276 advancements
+[09:32:28] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[09:32:28] [Server thread/INFO]: Loading properties
+[09:32:28] [Server thread/INFO]: Default game type: SURVIVAL
+[09:32:28] [Server thread/INFO]: Generating keypair
+[09:32:28] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
+[09:32:28] [Server thread/INFO]: Starting Minecraft server on 25.5.106.151:25565
+[09:32:29] [Server thread/INFO]: Using default channel type
+[09:32:29] [Server thread/INFO]: Preparing level "world"
+[09:32:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:32:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[09:32:34] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:32:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[09:32:35] [Server thread/INFO]: Time elapsed: 3935 ms
+[09:32:35] [Server thread/INFO]: Done (6.415s)! For help, type "help"
+[09:33:03] [User Authenticator #1/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
+[09:33:04] [Server thread/INFO]: Trome_97[/25.5.106.151:61336] logged in with entity id 36 at (-15.633605945322644, 62.0, 19.637351682978654)
+[09:33:04] [Server thread/INFO]: Trome_97 joined the game
+[09:34:01] [Server thread/INFO]: Trome_97 drowned
+[09:34:03] [Server thread/WARN]: Trome_97 moved too quickly! 49.192400875292336,64.37716384160517,47.70094502252893
+[09:37:13] [User Authenticator #2/INFO]: UUID of player choque_blast is 5d93c5e7-7141-491d-b3e7-6cd706388f5c
+[09:37:16] [Server thread/INFO]: choque_blast[/25.39.104.46:51182] logged in with entity id 1640 at (16.5, 72.0, 25.5)
+[09:37:16] [Server thread/INFO]: choque_blast joined the game
+[09:39:18] [Server thread/INFO]: Trome_97 lost connection: Disconnected
+[09:39:18] [Server thread/INFO]: Trome_97 left the game
+[09:39:21] [Server thread/INFO]: choque_blast lost connection: Disconnected
+[09:39:21] [Server thread/INFO]: choque_blast left the game
+[09:39:25] [Server thread/INFO]: Stopping the server
+[09:39:25] [Server thread/INFO]: Stopping server
+[09:39:25] [Server thread/INFO]: Saving players
+[09:39:25] [Server thread/INFO]: Saving worlds
+[09:39:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:39:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:39:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:39:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:39:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:39:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:39:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
