@@ -1,10 +1,11 @@
-[19:33:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:33:43] [ServerMain/ERROR]: Failed to start the minecraft server
-java.io.IOException: O processo não p[19:33:47] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[19:33:47] [Server thread/INFO]: Loading properties
-[19:33:47] [Server thread/INFO]: Default game type: SURVIVAL
-[19:33:47] [Server thread/INFO]: Generating keypair
-[19:33:47] [Server console handler/ERROR]: Exception handling console input
+[16:49:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:49:45] [ServerMain/INFO]: Loaded 1175 recipes
+[16:49:46] [ServerMain/INFO]: Loaded 1276 advancements
+[16:49:48] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[16:49:48] [Server thread/INFO]: Loading properties
+[16:49:48] [Server thread/INFO]: Default game type: SURVIVAL
+[16:49:48] [Server thread/INFO]: Generating keypair
+[16:49:48] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -21,59 +22,52 @@ java.io.IOException: Identificador inválido
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
-[19:33:47] [Server thread/INFO]: Starting Minecraft server on 25.5.106.151:25565
-[19:33:48] [Server thread/INFO]: Using default channel type
-[19:33:48] [Server thread/INFO]: Preparing level "world"
-[19:33:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:33:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[19:33:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[19:33:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:33:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:33:59] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[19:33:59] [Worker-Main-2/INFO]: Preparing spawn area: 63%
-[19:33:59] [Server thread/INFO]: Time elapsed: 6745 ms
-[19:33:59] [Server thread/INFO]: Done (11.182s)! For help, type "help"
-[19:35:19] [User Authenticator #1/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
-[19:35:20] [Server thread/INFO]: Trome_97[/25.5.106.151:64182] logged in with entity id 4 at (-6.399679180436178, 63.0, -722.8064871628097)
-[19:35:20] [Server thread/INFO]: Trome_97 joined the game
-[19:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2331ms or 46 ticks behind
-[19:49:26] [Server thread/INFO]: Trome_97 has made the advancement [Not Today, Thank You]
-[19:56:56] [Server thread/INFO]: Trome_97 has made the advancement [Take Aim]
-[20:04:15] [Server thread/INFO]: Trome_97 was blown up by Creeper
-[20:04:19] [Server thread/WARN]: Trome_97 moved too quickly! 181.90761735082762,102.5625,-60.19999998807907
-[20:04:19] [Server thread/WARN]: Trome_97 moved too quickly! 181.90761735082762,102.5625,-60.19999998807907
-[20:55:02] [User Authenticator #2/INFO]: UUID of player choque_blast is 5d93c5e7-7141-491d-b3e7-6cd706388f5c
-[20:55:05] [Server thread/INFO]: choque_blast[/25.39.104.46:56026] logged in with entity id 21211 at (10.5, 56.5625, -737.5)
-[20:55:05] [Server thread/INFO]: choque_blast joined the game
-[21:02:27] [Server thread/INFO]: choque_blast has made the advancement [Isn't It Iron Pick]
-[21:49:11] [Server thread/INFO]: Trome_97 was blown up by Creeper
-[21:49:51] [Server thread/INFO]: <choque_blast> 1107 -18 -2290
-[22:17:55] [Server thread/INFO]: Villager cmm['Villager'/36409, l='ServerLevel[world]', x=1246.37, y=63.00, z=-2178.71] died, message: 'Villager was slain by Zombie'
-[22:18:02] [Server thread/INFO]: Villager cmm['Villager'/36648, l='ServerLevel[world]', x=1248.04, y=63.00, z=-2180.57] died, message: 'Villager was slain by Zombie'
-[22:18:08] [Server thread/INFO]: Villager cmm['Villager'/36456, l='ServerLevel[world]', x=1246.35, y=63.00, z=-2179.37] died, message: 'Villager was slain by Zombie'
-[22:38:29] [Server thread/INFO]: <Trome_97> 64 -222
-[22:56:43] [Server thread/INFO]: Trome_97 has made the advancement [Glow and Behold!]
-[22:56:54] [Server thread/INFO]: choque_blast has made the advancement [Glow and Behold!]
-[23:08:05] [Server thread/INFO]: choque_blast lost connection: Disconnected
-[23:08:05] [Server thread/INFO]: choque_blast left the game
-[23:08:07] [Server thread/INFO]: Trome_97 lost connection: Disconnected
-[23:08:07] [Server thread/INFO]: Trome_97 left the game
-[23:08:19] [Server thread/INFO]: Stopping the server
-[23:08:19] [Server thread/INFO]: Stopping server
-[23:08:19] [Server thread/INFO]: Saving players
-[23:08:19] [Server thread/INFO]: Saving worlds
-[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:49:48] [Server thread/INFO]: Starting Minecraft server on 25.5.106.151:25565
+[16:49:48] [Server thread/INFO]: Using default channel type
+[16:49:49] [Server thread/INFO]: Preparing level "world"
+[16:49:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:49:54] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:49:54] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[16:49:55] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:49:55] [Worker-Main-5/INFO]: Preparing spawn area: 53%
+[16:49:56] [Server thread/INFO]: Time elapsed: 4181 ms
+[16:49:56] [Server thread/INFO]: Done (7.029s)! For help, type "help"
+[16:49:59] [User Authenticator #1/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
+[16:50:02] [Server thread/INFO]: Trome_97[/25.5.106.151:63402] logged in with entity id 4 at (-0.2331965845303193, 56.0, -727.3017219284345)
+[16:50:02] [Server thread/INFO]: Trome_97 joined the game
+[16:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4164ms or 83 ticks behind
+[16:52:09] [User Authenticator #2/INFO]: UUID of player choque_blast is 5d93c5e7-7141-491d-b3e7-6cd706388f5c
+[16:52:12] [Server thread/INFO]: choque_blast[/25.39.104.46:59225] logged in with entity id 771 at (10.626922673512695, 56.00133597911215, -727.2810391562771)
+[16:52:12] [Server thread/INFO]: choque_blast joined the game
+[16:54:03] [Server thread/INFO]: <choque_blast> I'm navigating
+[16:54:11] [Server thread/INFO]: <Trome_97> loading.....
+[17:10:59] [Server thread/INFO]: Seed: [-1176137900]
+[17:39:40] [Server thread/INFO]: choque_blast fell off scaffolding
+[17:39:41] [Server thread/WARN]: choque_blast moved too quickly! -107.25687401027625,22.5625,-3.800000011920929
+[17:39:41] [Server thread/WARN]: choque_blast moved too quickly! -107.25687401027625,22.5625,-3.800000011920929
+[17:40:19] [Server thread/INFO]: choque_blast fell from a high place
+[18:34:07] [Server thread/INFO]: choque_blast fell from a high place
+[18:34:11] [Server thread/WARN]: choque_blast moved too quickly! -86.19999998807907,32.5625,-16.80000001192093
+[18:37:16] [Server thread/INFO]: choque_blast has made the advancement [We Need to Go Deeper]
+[18:37:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
+[18:41:48] [Server thread/INFO]: Trome_97 has made the advancement [Enchanter]
+[18:45:42] [Server thread/INFO]: choque_blast lost connection: Disconnected
+[18:45:42] [Server thread/INFO]: choque_blast left the game
+[18:46:08] [Server thread/INFO]: Trome_97 lost connection: Disconnected
+[18:46:08] [Server thread/INFO]: Trome_97 left the game
+[18:46:19] [Server thread/INFO]: Stopping the server
+[18:46:19] [Server thread/INFO]: Stopping server
+[18:46:19] [Server thread/INFO]: Saving players
+[18:46:19] [Server thread/INFO]: Saving worlds
+[18:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:46:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:46:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:46:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:46:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:46:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
