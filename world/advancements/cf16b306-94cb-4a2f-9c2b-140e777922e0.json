@@ -7,24 +7,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2024-05-28 20:11:19 -0300",
+      "minecraft:deep_ocean": "2024-05-29 21:18:39 -0300",
+      "minecraft:ocean": "2024-05-28 19:51:26 -0300",
+      "minecraft:jungle": "2024-05-29 16:27:00 -0300",
+      "minecraft:cherry_grove": "2024-05-29 16:30:13 -0300",
+      "minecraft:sunflower_plains": "2024-05-29 21:07:52 -0300",
+      "minecraft:birch_forest": "2024-05-28 19:48:43 -0300",
+      "minecraft:windswept_hills": "2024-05-29 21:31:34 -0300",
+      "minecraft:bamboo_jungle": "2024-05-28 21:29:39 -0300",
+      "minecraft:windswept_savanna": "2024-05-29 21:08:19 -0300",
+      "minecraft:deep_lukewarm_ocean": "2024-05-29 16:18:28 -0300",
+      "minecraft:flower_forest": "2024-05-29 21:07:57 -0300",
       "minecraft:beach": "2024-05-28 19:48:05 -0300",
       "minecraft:dark_forest": "2024-05-28 20:26:44 -0300",
-      "minecraft:forest": "2024-05-28 20:11:19 -0300",
+      "minecraft:mangrove_swamp": "2024-05-29 21:19:59 -0300",
       "minecraft:sparse_jungle": "2024-05-28 20:41:41 -0300",
       "minecraft:river": "2024-05-28 20:00:30 -0300",
       "minecraft:lukewarm_ocean": "2024-05-28 20:41:07 -0300",
       "minecraft:stony_shore": "2024-05-28 19:47:49 -0300",
       "minecraft:dripstone_caves": "2024-05-29 16:40:11 -0300",
       "minecraft:old_growth_birch_forest": "2024-05-28 20:08:09 -0300",
-      "minecraft:ocean": "2024-05-28 19:51:26 -0300",
-      "minecraft:jungle": "2024-05-29 16:27:00 -0300",
-      "minecraft:cherry_grove": "2024-05-29 16:30:13 -0300",
+      "minecraft:swamp": "2024-05-29 21:08:09 -0300",
       "minecraft:meadow": "2024-05-29 16:40:01 -0300",
-      "minecraft:birch_forest": "2024-05-28 19:48:43 -0300",
       "minecraft:savanna": "2024-05-28 20:40:31 -0300",
-      "minecraft:bamboo_jungle": "2024-05-28 21:29:39 -0300",
-      "minecraft:plains": "2024-05-28 20:40:10 -0300",
-      "minecraft:deep_lukewarm_ocean": "2024-05-29 16:18:28 -0300"
+      "minecraft:plains": "2024-05-28 20:40:10 -0300"
     },
     "done": false
   },
@@ -349,7 +356,9 @@
       "minecraft:piglin_brute": "2024-05-29 15:51:17 -0300",
       "minecraft:zombie": "2024-05-28 20:00:12 -0300",
       "minecraft:creeper": "2024-05-29 15:07:52 -0300",
-      "minecraft:ghast": "2024-05-29 16:01:29 -0300"
+      "minecraft:drowned": "2024-05-29 21:36:49 -0300",
+      "minecraft:ghast": "2024-05-29 16:01:29 -0300",
+      "minecraft:slime": "2024-05-29 21:24:29 -0300"
     },
     "done": false
   },
@@ -2859,6 +2868,90 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2024-05-29 18:13:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-05-29 19:37:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-05-29 22:56:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-05-29 19:37:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-05-29 19:49:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-05-29 21:24:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-05-29 19:56:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-05-29 19:56:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-05-29 21:45:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-05-29 22:57:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-05-29 19:37:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-05-29 21:24:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2024-05-29 21:22:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-05-29 19:58:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-05-29 21:24:35 -0300"
     },
     "done": true
   },

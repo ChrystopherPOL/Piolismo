@@ -1,19 +1,18 @@
-[12:08:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:08:59] [ServerMain/ERROR]: Failed to start the minecraft server
-java.io.IOException: O processo não pode acessar o arquivo porque outro processo bloqueou parte do arquivo
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
-	at aye.a(SourceFile:37) ~[server-1.20.6.jar:?]
-	at epy$c.<init>(SourceFile:374) ~[server-1.20.6.jar:?]
-	at epy.d(SourceFile:353) ~[server-1.20.6.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.20.6.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+[19:33:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:33:43] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: O processo não p[19:33:47] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[19:33:47] [Server thread/INFO]: Loading properties
+[19:33:47] [Server thread/INFO]: Default game type: SURVIVAL
+[19:33:47] [Server thread/INFO]: Generating keypair
+[19:33:47] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
 	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
 	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
 	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
@@ -22,108 +21,59 @@ java.io.IOException: O processo não pode acessar o arquivo porque outro process
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
-[12:08:33] [Server thread/INFO]: Starting Minecraft server on 25.5.106.151:25565
-[12:08:33] [Server thread/INFO]: Using default channel type
-[12:08:34] [Server thread/INFO]: Preparing level "world"
-[12:08:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:08:39] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:08:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[12:08:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[12:08:39] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:08:39] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[12:08:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:40] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:08:40] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[12:08:41] [Server thread/INFO]: Time elapsed: 3957 ms
-[12:08:41] [Server thread/INFO]: Done (7.039s)! For help, type "help"
-[12:10:20] [User Authenticator #1/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
-[12:10:22] [Server thread/INFO]: Trome_97[/25.5.106.151:59664] logged in with entity id 4 at (4.343935927068152, 64.0, -712.8309319141216)
-[12:10:22] [Server thread/INFO]: Trome_97 joined the game
-[12:10:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4299ms or 85 ticks behind
-[12:21:41] [Server thread/INFO]: Trome_97 lost connection: Disconnected
-[12:21:41] [Server thread/INFO]: Trome_97 left the game
-[13:11:14] [User Authenticator #2/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
-[13:11:16] [Server thread/INFO]: Trome_97[/25.5.106.151:49562] logged in with entity id 3982 at (13.237342742512745, 65.0, -743.12442619824)
-[13:11:16] [Server thread/INFO]: Trome_97 joined the game
-[13:11:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2170ms or 43 ticks behind
-[13:58:35] [Server thread/WARN]: Birch Boat (vehicle of Trome_97) moved wrongly! 0.49626660636856934
-[14:04:17] [Server thread/INFO]: Trome_97 has made the advancement [Ice Bucket Challenge]
-[14:22:24] [User Authenticator #3/INFO]: UUID of player NatanOmega is bfc14854-f0d4-4772-b4f3-0ce3a0b73957
-[14:22:27] [Server thread/INFO]: NatanOmega[/25.7.108.88:58789] logged in with entity id 21453 at (16.45378990328546, 65.0, -686.9473529946528)
-[14:22:27] [Server thread/INFO]: NatanOmega joined the game
-[15:14:00] [Server thread/INFO]: NatanOmega was shot by Skeleton
-[15:17:02] [Server thread/INFO]: Trome_97 has made the advancement [Isn't It Iron Pick]
-[15:29:07] [Server thread/INFO]: NatanOmega lost connection: Disconnected
-[15:29:07] [Server thread/INFO]: NatanOmega left the game
-[15:29:14] [User Authenticator #4/INFO]: UUID of player NatanOmega is bfc14854-f0d4-4772-b4f3-0ce3a0b73957
-[15:29:17] [Server thread/INFO]: NatanOmega[/25.7.108.88:59136] logged in with entity id 41051 at (13.410284579177171, 55.0, -697.6290382539974)
-[15:29:17] [Server thread/INFO]: NatanOmega joined the game
-[15:41:37] [Server thread/INFO]: Trome_97 has made the advancement [Suit Up]
-[15:44:27] [Server thread/INFO]: NatanOmega has made the advancement [Suit Up]
-[15:48:07] [Server thread/INFO]: Trome_97 has made the advancement [We Need to Go Deeper]
-[15:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5253ms or 105 ticks behind
-[15:48:12] [Server thread/INFO]: NatanOmega has made the advancement [We Need to Go Deeper]
-[15:49:01] [Server thread/INFO]: NatanOmega has made the advancement [Those Were the Days]
-[15:49:03] [Server thread/INFO]: NatanOmega has made the advancement [War Pigs]
-[15:49:15] [Server thread/INFO]: Trome_97 was slain by Piglin Brute
-[15:51:24] [Server thread/INFO]: Trome_97 has made the advancement [Those Were the Days]
-[15:51:34] [Server thread/INFO]: Trome_97 has made the advancement [Who is Cutting Onions?]
-[15:59:21] [Server thread/INFO]: NatanOmega lost connection: Disconnected
-[15:59:21] [Server thread/INFO]: NatanOmega left the game
-[16:01:29] [Server thread/INFO]: Trome_97 has completed the challenge [Return to Sender]
-[16:07:58] [User Authenticator #5/INFO]: UUID of player NatanOmega is bfc14854-f0d4-4772-b4f3-0ce3a0b73957
-[16:08:01] [Server thread/INFO]: NatanOmega[/25.7.108.88:59923] logged in with entity id 53784 at (-2.1012617267943954, 56.0, -720.0261310403573)
-[16:08:01] [Server thread/INFO]: NatanOmega joined the game
-[16:12:38] [Server thread/INFO]: NatanOmega has made the advancement [Who is Cutting Onions?]
-[16:18:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[16:19:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[16:20:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
-[16:26:38] [Server thread/INFO]: <NatanOmega> -50 -700
-[16:39:08] [User Authenticator #6/INFO]: UUID of player choque_blast is 5d93c5e7-7141-491d-b3e7-6cd706388f5c
-[16:39:11] [Server thread/INFO]: choque_blast[/25.39.104.46:54988] logged in with entity id 77362 at (30.239392426113792, 66.0, -731.5884478824294)
-[16:39:11] [Server thread/INFO]: choque_blast joined the game
-[16:42:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[16:42:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[16:43:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2169ms or 43 ticks behind
-[16:43:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5605ms or 112 ticks behind
-[16:43:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6129ms or 122 ticks behind
-[16:44:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6096ms or 121 ticks behind
-[16:44:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7209ms or 144 ticks behind
-[16:50:24] [Server thread/INFO]: choque_blast was slain by Zombie
-[16:50:25] [Server thread/WARN]: choque_blast moved too quickly! 24.22599278365961,-31.0,-162.20612633478117
-[16:54:21] [Server thread/INFO]: Trome_97 lost connection: Disconnected
-[16:54:21] [Server thread/INFO]: Trome_97 left the game
-[16:55:19] [Server thread/INFO]: choque_blast was slain by Zombie
-[16:58:10] [User Authenticator #7/INFO]: UUID of player Hycorax is c3cba989-111d-49bf-aa49-068dd62fe86e
-[16:58:14] [Server thread/INFO]: Hycorax[/25.42.66.2:55921] logged in with entity id 94649 at (6.783277648450495, 64.0, -734.1897071329875)
-[16:58:14] [Server thread/INFO]: Hycorax joined the game
-[17:08:03] [User Authenticator #8/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
-[17:08:04] [Server thread/INFO]: Trome_97[/25.5.106.151:60677] logged in with entity id 97949 at (8.57391788993585, 64.0, -721.8287669624555)
-[17:08:04] [Server thread/INFO]: Trome_97 joined the game
-[17:10:50] [Server thread/INFO]: Hycorax has made the advancement [The Parrots and the Bats]
-[17:11:23] [Server thread/INFO]: Hycorax lost connection: Disconnected
-[17:11:23] [Server thread/INFO]: Hycorax left the game
-[17:16:34] [Server thread/INFO]: choque_blast has made the advancement [Suit Up]
-[17:40:27] [Server thread/INFO]: <choque_blast> zzzzzzzzzz?
-[18:13:58] [Server thread/INFO]: NatanOmega lost connection: Disconnected
-[18:13:58] [Server thread/INFO]: NatanOmega left the game
-[18:18:51] [Server thread/INFO]: Trome_97 lost connection: Disconnected
-[18:18:51] [Server thread/INFO]: Trome_97 left the game
-[18:18:59] [User Authenticator #9/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
-[18:19:00] [Server thread/INFO]: Trome_97[/25.5.106.151:51548] logged in with entity id 115608 at (4.377038745070231, 64.0, -713.1647858536668)
-[18:19:00] [Server thread/INFO]: Trome_97 joined the game
-[18:22:14] [Server thread/INFO]: Trome_97 lost connection: Disconnected
-[18:22:14] [Server thread/INFO]: Trome_97 left the game
-[18:22:48] [Server thread/INFO]: choque_blast lost connection: Disconnected
-[18:22:48] [Server thread/INFO]: choque_blast left the game
-[18:25:04] [Server thread/INFO]: Stopping the server
-[18:25:04] [Server thread/INFO]: Stopping server
-[18:25:04] [Server thread/INFO]: Saving players
-[18:25:04] [Server thread/INFO]: Saving worlds
-[18:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:25:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:25:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:25:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:25:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:25:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:33:47] [Server thread/INFO]: Starting Minecraft server on 25.5.106.151:25565
+[19:33:48] [Server thread/INFO]: Using default channel type
+[19:33:48] [Server thread/INFO]: Preparing level "world"
+[19:33:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:33:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[19:33:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[19:33:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:33:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:33:59] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:33:59] [Worker-Main-2/INFO]: Preparing spawn area: 63%
+[19:33:59] [Server thread/INFO]: Time elapsed: 6745 ms
+[19:33:59] [Server thread/INFO]: Done (11.182s)! For help, type "help"
+[19:35:19] [User Authenticator #1/INFO]: UUID of player Trome_97 is cf16b306-94cb-4a2f-9c2b-140e777922e0
+[19:35:20] [Server thread/INFO]: Trome_97[/25.5.106.151:64182] logged in with entity id 4 at (-6.399679180436178, 63.0, -722.8064871628097)
+[19:35:20] [Server thread/INFO]: Trome_97 joined the game
+[19:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2331ms or 46 ticks behind
+[19:49:26] [Server thread/INFO]: Trome_97 has made the advancement [Not Today, Thank You]
+[19:56:56] [Server thread/INFO]: Trome_97 has made the advancement [Take Aim]
+[20:04:15] [Server thread/INFO]: Trome_97 was blown up by Creeper
+[20:04:19] [Server thread/WARN]: Trome_97 moved too quickly! 181.90761735082762,102.5625,-60.19999998807907
+[20:04:19] [Server thread/WARN]: Trome_97 moved too quickly! 181.90761735082762,102.5625,-60.19999998807907
+[20:55:02] [User Authenticator #2/INFO]: UUID of player choque_blast is 5d93c5e7-7141-491d-b3e7-6cd706388f5c
+[20:55:05] [Server thread/INFO]: choque_blast[/25.39.104.46:56026] logged in with entity id 21211 at (10.5, 56.5625, -737.5)
+[20:55:05] [Server thread/INFO]: choque_blast joined the game
+[21:02:27] [Server thread/INFO]: choque_blast has made the advancement [Isn't It Iron Pick]
+[21:49:11] [Server thread/INFO]: Trome_97 was blown up by Creeper
+[21:49:51] [Server thread/INFO]: <choque_blast> 1107 -18 -2290
+[22:17:55] [Server thread/INFO]: Villager cmm['Villager'/36409, l='ServerLevel[world]', x=1246.37, y=63.00, z=-2178.71] died, message: 'Villager was slain by Zombie'
+[22:18:02] [Server thread/INFO]: Villager cmm['Villager'/36648, l='ServerLevel[world]', x=1248.04, y=63.00, z=-2180.57] died, message: 'Villager was slain by Zombie'
+[22:18:08] [Server thread/INFO]: Villager cmm['Villager'/36456, l='ServerLevel[world]', x=1246.35, y=63.00, z=-2179.37] died, message: 'Villager was slain by Zombie'
+[22:38:29] [Server thread/INFO]: <Trome_97> 64 -222
+[22:56:43] [Server thread/INFO]: Trome_97 has made the advancement [Glow and Behold!]
+[22:56:54] [Server thread/INFO]: choque_blast has made the advancement [Glow and Behold!]
+[23:08:05] [Server thread/INFO]: choque_blast lost connection: Disconnected
+[23:08:05] [Server thread/INFO]: choque_blast left the game
+[23:08:07] [Server thread/INFO]: Trome_97 lost connection: Disconnected
+[23:08:07] [Server thread/INFO]: Trome_97 left the game
+[23:08:19] [Server thread/INFO]: Stopping the server
+[23:08:19] [Server thread/INFO]: Stopping server
+[23:08:19] [Server thread/INFO]: Saving players
+[23:08:19] [Server thread/INFO]: Saving worlds
+[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:08:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:08:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
